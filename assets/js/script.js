@@ -1,4 +1,4 @@
-const  day = document.getElementById('day');
+ const day = document.getElementById('day');
 const night = document.getElementById('night');
 const body = document.getElementById('body');
 const i = document.getElementById('i');
@@ -24,12 +24,12 @@ night.addEventListener("click", function() {
     n.style.color = '#fff';
     nn.style.color = '#fff';
     nnn.style.color = '#fff';
-    txt1.style.color = '#fff'
+    txt1.style.color = '#fff';
 });
 day.addEventListener("click", function() {
     day.style.display = 'none';
     night.style.display = 'block';
-    body.style.background = '#fff'
+    body.style.background = '#fff';
     i.style.color = '#000000';
     ii.style.color = '#000000';
     iii.style.color = '#000000';
@@ -37,5 +37,5 @@ day.addEventListener("click", function() {
     n.style.color = '#000000';
     nn.style.color = '#000000';
     nnn.style.color = '#000000';
-    txt1.style.color = '#000000'
+    txt1.style.color = '#000000';
 });
